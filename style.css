@@ -1,0 +1,39 @@
+.calcuTable {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: black;
+  padding: 0px 10px 10px 10px;
+}
+
+input {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-size: 40px;
+  color: aliceblue;
+  background-color: black;
+  border: none;
+}
+
+button {
+  border-radius: 150px;
+  font-size: 40px;
+  border: none;
+}
+
+.number {
+  background-color: rgb(36, 37, 38);
+  color: aliceblue;
+}
+
+.kigou {
+  background-color: rgb(243, 148, 49);
+  color: aliceblue;
+}
+
+.btn0 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

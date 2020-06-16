@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="scriput.js"></script>
+
+  <section class="calcuTable">
+    <input type="text">
+    <button class="action" onclick="clear('')">AC</button>
+    <button>+/-</button>
+    <button>%</button>
+    <button class="kigou" onclick="add('%')">÷</button>
+    <button class="number" onclick="add('7')">7</button>
+    <button class="number" onclick="add('8')">8</button>
+    <button class="number" onclick="add('9')">9</button>
+    <button class="kigou" onclick="add('*')">×</button>
+
+    <button class="number" onclick="add('4')">4</button>
+    <button class="number" onclick="add('5')">5</button>
+    <button class="number" onclick="add('6')">6</button>
+    <button class="kigou" onclick="add('-')">-</button>
+
+    <button class="number" onclick="add('1')">1</button>
+    <button class="number" onclick="add('2')">2</button>
+    <button class="number" onclick="add('3')">3</button>
+    <button class="kigou" onclick="add('+')">+</button>
+
+    <button class="number btn0" onclick="add('0')">0</button>
+    <button class="number" onclick="add('.')">.</button>
+    <button class="kigou" onclick="equal()">=</button>
+  </section>
+</body>
+
+</html>
